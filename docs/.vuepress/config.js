@@ -1,0 +1,27 @@
+module.exports={
+    base:'/18688940291lj/',
+    title:"我的博客",
+    description:"vuepress",
+    themeConfig:{
+        sidebarDepth:2,
+        sidebar:[
+            {
+                title:"前端基础",
+                children:[
+                    {
+                        title:"html",
+                        path:"/html/html"
+                    },
+                    {
+                        title:"css",
+                        path:"/css/css"
+                    },
+                    {
+                        title:"js",
+                        path:"/js/js"
+                    }
+                ]
+            }
+        ]
+    }
+}
